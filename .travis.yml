@@ -20,4 +20,4 @@ script:
 #deploying the app on Docker & Heroku
 - mvn heroku:deploy
 # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=pepo-malinov_spring-boot-ci-cd
+- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
