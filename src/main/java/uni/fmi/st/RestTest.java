@@ -1,0 +1,14 @@
+package uni.fmi.st;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class RestTest {
+
+	@GetMapping("/")
+	String hi() {
+		return "Hi";
+	}
+
+}
